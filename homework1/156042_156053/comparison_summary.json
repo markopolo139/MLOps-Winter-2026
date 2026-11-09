@@ -1,0 +1,15 @@
+{
+  "baseline_val_f1": 0.41401150822639465,
+  "tuned_val_f1": 0.6030538082122803,
+  "abs_gain_percent": 18.904229998588562,
+  "rel_gain_percent": 45.661122029127576,
+  "meets_criteria": true,
+  "best_hyperparameters": {
+    "lr": 0.0016834549246003507,
+    "optimizer_name": "adamw",
+    "weight_decay": 0.00041282053438262235,
+    "dropout_rate": 0.09680559213273096,
+    "batch_size": 64
+  },
+  "comparison_plot": "./plots/baseline_vs_best_comparison.png"
+}

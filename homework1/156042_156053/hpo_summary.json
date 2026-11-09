@@ -1,0 +1,12 @@
+{
+  "best_trial_number": 1,
+  "best_val_f1_macro": 0.5684971809387207,
+  "best_params": {
+    "lr": 0.0016834549246003507,
+    "optimizer_name": "adamw",
+    "weight_decay": 0.00041282053438262235,
+    "dropout_rate": 0.09680559213273096,
+    "batch_size": 64
+  },
+  "n_trials": 6
+}

@@ -1,0 +1,29 @@
+# Environments & Dependencies
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and Artifacts
+data/
+mlruns/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+1/
+mlartifacts/
+
+# IDE and OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+MLOps-Winter-2026/
+
+# Allow plots
+!plots/*.png
