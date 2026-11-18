@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.bentoml/
+lightning_logs/
+mlruns/
+mlartifacts/
+*.db
+sample_request.json
+!plots/*.png
