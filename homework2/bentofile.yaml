@@ -1,0 +1,15 @@
+service: "service:CIFAR100ServiceAdaptiveBatch"
+labels:
+  owner: "156042_156053"
+  course: "mlops"
+  homework: "hw2"
+include:
+  - "service.py"
+  - "src/**/*.py"
+  - "models/cifar100_resnet_scripted.pt"
+  - "models/model_metadata.json"
+python:
+  packages:
+    - "torch>=2.1.0"
+    - "numpy>=1.24.0"
+    - "bentoml>=1.4.0"
